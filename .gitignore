@@ -1,0 +1,53 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Build directories
+build/
+build-*/
+cmake-build-*/
+out/
+
+# IDE
+.vscode/
+.vs/
+.idea/
+*.swp
+*.swo
+*~
+
+# Compiled files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+_deps/
+
+# Test outputs
+Testing/
+*.gcov
+*.gcda
+*.gcno
+
+# Swift
+.build/
+*.xcodeproj
+*.xcworkspace
+.swiftpm/
+*.resolved
+
+# Package files
+*.tar.gz
+*.zip
