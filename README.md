@@ -22,6 +22,25 @@
     "compat": { /* Optional sim-specific data */ }
   }
 
+
+  ├── LICENSE
+  ├── README.md
+  ├── .gitignore
+  ├── Swift/
+  │   ├── ORSFCore.swift
+  │   └── ORSFAdapter.swift
+  └── cpp/
+      ├── CMakeLists.txt
+      ├── README.md
+      ├── BUILD_TEST_RESULTS.md
+      ├── IMPLEMENTATION_SUMMARY.md
+      ├── include/orsf/
+      ├── src/
+      ├── tests/
+      ├── examples/
+      └── docs/
+
+
   Main Sections
 
   1. Metadata - Setup tracking
@@ -93,18 +112,8 @@
   - Tire change policy
   - Notes
 
-    📁 For game developers (C++)
-
-  cpp/
-  ├── CMakeLists.txt              # Root build config
-  ├── README.md                   # Main documentation
-  ├── .gitignore
-  ├── include/orsf/              # Public API (6 headers)
-  ├── src/                       # Implementation (5 files)
-  ├── tests/                     # 100+ test cases
-  ├── examples/                  # 4 example programs
-  └── docs/                      # API reference, build guide
-
+ 
+For game developers:
   ---
   🚀 Next Steps
 
