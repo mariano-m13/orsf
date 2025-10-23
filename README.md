@@ -92,3 +92,38 @@
 
   - Tire change policy
   - Notes
+
+    📁 For game developers (C++)
+
+  cpp/
+  ├── CMakeLists.txt              # Root build config
+  ├── README.md                   # Main documentation
+  ├── .gitignore
+  ├── include/orsf/              # Public API (6 headers)
+  ├── src/                       # Implementation (5 files)
+  ├── tests/                     # 100+ test cases
+  ├── examples/                  # 4 example programs
+  └── docs/                      # API reference, build guide
+
+  ---
+  🚀 Next Steps
+
+  1. Test the build:
+  cd cpp && mkdir build && cd build && cmake .. && cmake --build . && ctest --verbose
+  2. Try the examples:
+  ./examples/basic_usage
+  ./examples/validation_example
+  3. Integrate into your Raceday app:
+    - Use CMake FetchContent or add as subdirectory
+    - Create adapters for each sim you support
+  4. Commit to your repo (remember: use mariano-m13 account, no Claude/Anthropic mentions in commits)
+
+  ---
+  🎁 Bonus Features
+
+  - Lookup table converter - For non-linear mappings (wing level → downforce)
+  - ISO8601 utilities - Timestamp generation & validation
+  - String utilities - Trim, split, join, case conversion
+  - Transformation composition - Chain multiple transforms
+  - Detailed error messages - Field path, expected vs actual values
+
